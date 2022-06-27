@@ -36,20 +36,22 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 
-first_question = input("You're at a cross road. Where do you want to go? Type 'left' or 'right' ")
-second_question = input('You come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across. ')
-final_question = input('You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose? ')
+first_question = input('You\'re at a cross road. Where do you want to go? Type "left" or "right" \n').lower()
 
 if first_question == 'left':
-    second_question = input('You come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across. ')
+    second_question = input('You\'ve come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across. \n').lower()
     if second_question == 'wait':
-        final_question = input('You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose? ')
+        final_question = input('You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose? \n').lower()
         if final_question == 'yellow':
-            print('You Win!')
+            print('Congrats! You found the treasure! You Win!')
+        elif final_question == 'red':
+            print("It's a room full of fire. Game Over.")
+        elif final_question == 'blue':
+            print("You enter a room of beasts. Game Over.")
         else:
-            print('Game Over.')
+            print("You chose a door that doesn't exist. Game Over.")
     else:
-        print('Game Over.')
+        print("You got attacked by an angry trout. Game Over.")
 else:
-    print('Game Over.')
+    print('You fell into a hole. Game Over.')
 
