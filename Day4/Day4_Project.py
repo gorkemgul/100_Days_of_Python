@@ -6,7 +6,7 @@
 # We're going to get input from users and compare their input to the computer's choice and our program is going to decide who is gonna win.
 # We're going to write our program according to The Rock, Paper, Scissors Association.
 # - e.g. if user and the computer chose the same then the output will be It's a draw.
-# - e.g. if user chose paper & the computer chose scissors then output will be You win!.
+# - e.g. if user chose paper & the computer chose scissors then output will be You lose!.
 
 import random
 
