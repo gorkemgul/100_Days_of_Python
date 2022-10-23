@@ -1,6 +1,6 @@
-# =================================================================================================== #
-#                Day 6 Project: Escaping The Maze              #
-# =================================================================================================== #
+# ================================================================================================== #
+#                                   Day 6 Project: Escaping The Maze                                 #
+# ================================================================================================== #
 
 # We're going to write a program that will help to reeborg to espace from the maze.
 # It can be open from this link:https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json
